@@ -1,17 +1,13 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
     <title>Ryan Yeske is Online</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
   </head>
   <body>
-    <main>
-      <section>
-	<header>
-	  <h1>INTERNET WEBSITE FOR RYAN YESKE</h1>
-	  internet@ryanyeske.com
-	</header>
-      </section>
-    </main>
+    {{content | safe}}
     <script>
      document.body.innerText = 'disable javascript to view this site'
     </script>
