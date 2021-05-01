@@ -1,0 +1,27 @@
+{
+  "name": "ryanyeske.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcy/ryanyeske.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcy/ryanyeske.com/issues"
+  },
+  "homepage": "https://github.com/rcy/ryanyeske.com#readme",
+  "dependencies": {
+    "eleventy": "^1.0.6"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
